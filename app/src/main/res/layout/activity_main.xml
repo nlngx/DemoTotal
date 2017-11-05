@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="james.totaldemo.MainActivity">
+
+    <TextView
+
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试1"
+        android:clickable="true"
+        android:textSize="32sp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:text="测试2"
+        android:layout_below="@+id/textView1"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+</RelativeLayout>
